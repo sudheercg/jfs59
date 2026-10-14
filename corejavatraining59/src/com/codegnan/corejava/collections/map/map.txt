@@ -1,0 +1,184 @@
+Apple
+Banana
+
+
+Employee1
+Employee2
+
+Student1
+Student2
+
+
+Key Value
+---
+1   Anand
+2   Kumar
+3   Prasad
+
+
+101 Raj
+
+01   US
+91   India
+
+
+
+
+Map - Key and value pair
+
+In java Map is an interface 
+
+Map belongs to java.util
+
+
+Map:
+
+- Map is an interface present in java.util package.
+- Map will store the data in the form of Key and Value pairs
+- Map can have multiple Key value pairs. 
+- Each of these key and value pair is known as an Entry
+- Group of these entries are known as EntrySet
+- Set of all the keys in a Map are known as KeySet
+- All the values are grouped together called as values.
+- All the keys in a map must be unique
+- Values can be duplicated. 
+- Map interface will not extend Collection interface
+
+
+HashMap: 
+
+- belongs to java.util
+- It implements Map interface
+- It is a hashbased collection
+-Methods in HashMap:
+   
+   - put()  - it adds a key,value pair in a map. 
+   - get(key)  - get retrieves the value associated with a key.
+               
+   
+   - keySet() - returns the keys as a Set from HashMap
+   - values() - returns the values from the hashmap
+   
+Entry:
+  Entry represents a Key and a value pair. 
+  Entry is a inner interface of Map interface. 
+  
+  getKey(): getKey() is a method of Entry, it returns the key for an entry
+  getValue(): it is a method of Entry, it returns the value for an entry. 
+  
+  
+  Create a map of student grade -> Student Object
+  
+  
+  HashMap<Character, StudentObject>
+  
+  
+  =====================================================
+  
+AadharId as Key and Citizen as value
+
+
+1. Create a class Citizen
+    id,name,age,gender
+    
+2. Create a HashMap<String,Citizen>
+
+   In the key store the AadharId and in value store the Citizen object.
+   
+3. Create citizen objects
+4. In the hashmap add key as AadharId and value as Citizen object
+
+5. Retrieve the Key,Value pairs.
+
+
+HashMap will not guarantee the insertion order. 
+if we need insertion order  of map then we go for LinkedHashMap. 
+
+Problem:
+========
+
+Take an array of integers
+int[] intArray ={10,20,10,40,5,7,3,5}; 
+Find the frequency of each element in an array. 
+
+Output: 
+
+10 2
+20 1
+40 1 
+7  1
+3  1
+5  1
+
+Problem2: 
+String Hyderabad
+
+H - 1
+y - 1
+d -2
+e- 1
+r -1
+a-2
+b-1 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

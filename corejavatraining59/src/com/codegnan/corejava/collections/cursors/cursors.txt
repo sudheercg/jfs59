@@ -1,0 +1,90 @@
+Retrieval of elements in a Collection: 
+--------------------------------------
+
+for loop
+enhanced for loop
+
+Cursor:
+======
+
+Cursor is an object used to access elements of a 
+collection one at a time. 
+
+
+A collections stores group of objects.
+Cursor helps us to access these objects one by one. 
+
+There are 3 different types of cursors: 
+
+1. Enumeration  : It is a legacy cursor which can only be used on legacy classes like Vector.
+                  It can move in forward direction.
+                  It is not a global cursor. 
+                  
+                  It has two importants methods: 
+                  
+                  1. boolean hasMoreElements(): 
+                  Checks whethere there re elements or not
+                  returns true if element exist
+                  returns false if no element exists
+                  
+                  2. nextElement() - returns the next element in the 
+                   Collection
+                   
+                   
+                   We need to create Enumeration object to use Enumeration cursor
+                   
+                   To create Enumeration object, call elements() method on Vector.
+                   To use Enumeration -
+                   eg. vector.elements();
+
+2. Iterator: - Iterator is a cursor which can be used with all Collections
+             - It is also known as global cursor. 
+             - Iterator can only move in forward direction. 
+             - Iterator can remove an element during iteration process. 
+               by callinbg remove() method of Iterator. 
+             - It is also known as Unidirectional cursor
+              
+              Methods in Iterator: 
+              1. hasNext()
+              2. next()
+              
+              To get a iterator object, call iterator() method on your collection.
+              eg:
+              list.iterator(); 
+              
+              
+3. ListIterator
+            - Not a global cursor
+            - Works only with list implementations like ArrayList, LinkedList, Vector etc. 
+            - ListIterator can be used to traverse the elements in both forward and reverse
+              directions
+            - It is also known as bi-directional cursor.  
+            - To get an object of listIterator, we call the method listIterator().
+               
+               
+               
+      
+            
+            
+            
+            
+            
+            
+            
+            
+              
+              
+             
+             
+
+
+                   
+                  
+                  
+                
+
+
+
+
+
+

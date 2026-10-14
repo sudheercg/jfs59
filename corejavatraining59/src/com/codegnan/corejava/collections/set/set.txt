@@ -1,0 +1,27 @@
+Set:
+===
+
+Set is a collection which allows only Unique elements. 
+Set belongs to java.util package
+
+Set is an interface which extends Collection interface
+
+Implementations of Set interface: 
+
+1. HashSet
+- belongs to java.util
+- implements Set
+- HashSet is an unordered collection. 
+- HashSet will not allow duplicates
+- HashSet allows a single null value. 
+- HashSet internally uses an array, 
+   which stores the elements depending on the index value
+   generated internally
+ - HashSet is not guarateed to store the elements
+   in contigious memory locations. 
+
+
+2. LinkedHashSet:
+
+
+3. TreeSet

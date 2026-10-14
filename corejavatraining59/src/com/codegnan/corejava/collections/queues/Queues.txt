@@ -1,0 +1,175 @@
+java.util.Queue:
+================
+
+FIFO - First In First Out
+
+Queue is an interface which extends Collection interface
+
+Queue is extended  by Deque interface.
+
+Queue is directly implemented by PriorityQueue class.
+
+LinkedList implements both List and Deque interface. 
+
+Deque interrface is implemented by :
+  - LinkedList
+  - ArrayDeque classes
+  
+PriorityQueue:
+==============
+- implements Queue
+- A PriorityQueue is a collection that stores elements according
+  to their priority
+- It will not process the lements based on the insertion order. 
+- By default PriorityQueue gives priority to thge smalles t element.
+- It does not maintain insertion order
+- allows duplicates
+
+Methods of PriorityQueue: 
+ 1. offer(e)  - inserts an element
+    add(e) - inserts an element, throws exception if element cannot be
+             inserted
+    
+ 2. poll() - retrieve and remove the element with highest priority.
+    remove()- removes the highest priority element
+              but throws exception if the queue emption.
+              
+ 3. peek() : returns the highest priority element . 
+    
+ 
+Bank Customer Service: 
+----------------------
+A bank has a customer service counter. 
+Customers arrive one by one and wait in a queue.
+The bank follows the FIFO (First In, First Out) principle, 
+meaning the customer who arrives first will be served first.
+
+Write a java program using LinkedList using the methods: 
+
+offer() - add the customer into the queue
+poll() - removes the customer from the queue
+peek() - lookup the first customer standing in the queue. 
+
+Create a BankQueue using LinkedList
+1. Add the customer to the queue   using offer()
+2. display all the customers
+3. display the next customer to be served in the queue. - peek()
+4, serve the customer using poll()
+5. Display the number of customers waiting by using size()
+6. check whether the customers are waiting in queue or not by using isEmpty()
+
+Task: 
+Modify the above program using the Scanner class 
+and display a menu: 
+
+1. Add customer
+    Add the name:
+    Add the age
+    Add the balance"
+  2. Serve the customer:
+      call poll() method
+ 3. View next customer
+ 4. display all  customers
+ 5 Total waiting customers
+ 6. Exit
+ // when queue is empty display the message
+ "No customer is waiting"
+ 
+ Enter your choice: 
+ 
+ 
+ 
+
+DEQUE:
+=====
+
+Deque stands for Double Ended Queue
+Collection->Queue->Deque
+
+Deque is an interface which allows insertion, deletion and retrieval
+of elements from both ends- front and rear
+
+Normal queue follows FIFO
+Deque can be used both as Queue(FIFO) and as a Stack(LIFO)
+
+addFirst() - inserts an element at front
+addLast()  - inserts an element at the rear
+
+offerFirst()
+offerLast()
+
+
+To remove:
+---------
+removeFirst() 
+removeLast()
+
+pollFirst()
+pollLast()
+
+REtrieval: 
+getFirst()
+getLast()
+
+peekFirst()
+peekLast()
+
+
+ArrayDeque:
+==========
+- internally uses resizable array
+- does not allow null elements
+- supports duplicate elements
+- automatically grows when required
+- It is efficient for insertion and deletion at both ends. 
+
+
+Problem: 
+A hospital maintains a queue of patients waiting for consultation.
+Normal patients join from rear of the queue
+Emergency patients are added to the front of the queue. 
+
+WAP using Deque and ArrayDequeue to manage patient queue. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

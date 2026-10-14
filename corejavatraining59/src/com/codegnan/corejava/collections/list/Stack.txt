@@ -1,0 +1,42 @@
+Stack: 
+=====
+
+Stack is a class in java.util. 
+It is a legacy collection class. 
+Stack follows LIFO(Last in, First Out))
+Stack extends Vector class. 
+Stack allows duplicates 
+Stack is an ordered collection
+
+When stack is printed using S.O.P,
+it displays the output in the format: 
+[ele1,ele2,ele3..]
+
+Reason: Stack internally uses inherited
+toString() method. 
+
+This toString() method originally belongs
+java.lang.Object class.
+
+This toString() is overridden in 
+AbstractCollection class to display
+the output in the format: 
+[ele1,ele2...]
+
+Stack Operations: 
+------------------
+Stack performs 3 major operations: 
+
+pop() - removes and returns the removed  object.
+push() - adds an element into the stack
+peek() - looksup the element at the top of the stack and returns the top most element. 
+
+
+
+
+
+
+
+
+
+

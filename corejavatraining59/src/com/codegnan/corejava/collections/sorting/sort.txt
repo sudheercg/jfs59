@@ -1,0 +1,37 @@
+1. Collections.sort():
+   It can be used to sort String or Integers,
+   But sort() cannot directly sort custom objects like Employee, course etc. 
+   Because sort() method will not know, through which field it has to 
+    sort. 
+    
+   Moreover, Collections.sort() will not support set implementations
+   TreeSet can be used for sorting Sets.
+   But TreeSet also can sort only data like String, Integer, etc. 
+   TreeSet also will not be able to sort custom objects directly. 
+   
+   
+   To sort the custom objects, java provided 2 interfaces
+   1. Comparable interface
+   
+    - it is present in java.lang
+    -
+   
+   2. Comparator interface
+   
+   
+   Task: 
+   ------
+   Create a class Employee - id, name, salary
+   
+   Create an ArrayList of Employee Objects. 
+   
+   Use Comparator to sort by id, - IdComparator
+                 sort by name - NameComparator
+                 
+   Sort the elements using Collections.sort();
+   
+   
+   
+     
+  
+   

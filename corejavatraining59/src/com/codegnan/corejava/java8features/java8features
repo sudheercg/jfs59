@@ -1,0 +1,168 @@
+Java 8 features:
+
+Java 8 has introduced:
+
+1. Functional interfaces
+Interface: 
+- abstract methods
+- 
+
+String name
+public static final
+
+
+public void doSomething();
+
+
+public void doSomething{}
+
+Java 8 allows static and default
+
+static
+
+public static void doSomething(){
+
+}
+
+In version 8 of Java:
+static methods can be included in the interfaces
+We can call the static methods using 
+classname.staticMethod()
+
+default:
+default methods are introduced in java 8
+
+Syntax: 
+default returntype methodName(arguments){
+}
+
+default and static methods need not be used
+in the implementation classes of interface
+
+By default, the default method is a public method
+
+default Method in an interface, need not be overridden
+in implementation classes. 
+
+You can use the method directly or you can override the
+method where ever required. 
+
+Functional interfaces:
+======================
+Single
+Abstract
+Method
+
+A functional interface is introduced in java8;
+
+It can only have a single abstract method.
+
+But it allows any number of static and default methods. 
+
+A functional interface can be annotated with: 
+@FunctionalInterface on top of Interface declaration
+
+Lambda expression:
+------------------
+A lambda expression is a short way to write an implementation for 
+functional interface.
+
+It is introduced in Java 8.
+
+
+It helps to reduce the boiler plate code.
+
+Boiler plate code: 
+-----------------
+It is a code which is repetitive.
+
+
+Lambda expressions can be used with functional interface, which 
+contains only one abstract method.
+
+Lambda expressions are commonly used with Collections, Streams 
+and functional interfaces.
+
+Syntax:
+-------
+
+(arguments)-> expression
+
+The -> symbol is known lambda operator. 
+
+
+Predefined Functional interface in Java 8:
+-----------------------------------------
+Predefined functional interface are present in 
+java.util.function package
+
+There are several Predefined functional interfaces: 
+1. Predicate 
+   - It is used to test a condition
+   - the abstract method present in Predicate: 
+        boolean test(); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2. Lambda expressions
+3. StreamAPI
+4. Optional 
+5. Date API
+
+Functional Programming
+
+
+6. Method references.
+
+
+
